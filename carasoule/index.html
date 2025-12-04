@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Carousel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center items-center">
+    <div
+      id="simpleCarousel"
+      class="w-96 h-64 overflow-hidden relative shadow-2xl rounded-lg"
+    >
+      <img
+        src="assests/img1.jpg"
+        class="carousel-slide w-full h-full absolute left-0"
+      />
+      <img
+        src="assests/img2.jpg"
+        class="carousel-slide w-full h-full absolute left-0"
+      />
+      <img
+        src="assests/img3.jpg"
+        class="carousel-slide w-full h-full absolute left-0"
+      />
+      <span
+        id="nextBtn"
+        class="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 px-3 text-4xl font-bold cursor-pointer text-white bg-black/50 transition duration-300 z-10"
+      >
+        >
+      </span>
+
+      <span
+        id="prevBtn"
+        class="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 px-3 text-4xl font-bold cursor-pointer text-white bg-black/50 transition duration-300 z-10"
+      >
+        <
+      </span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
