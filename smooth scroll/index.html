@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Smooth Scroll</title>
+  </head>
+  <body>
+    <div
+      class="flex justify-between items-center p-8 bg-sky-100 fixed top-0 left-0 right-0"
+    >
+      <a href="index.html" class="text-3xl font-bold pr-4 ml-10">Digi Shop</a>
+      <button
+        class="md:hidden p-2 text-black border border-orange-600 rounded-lg hover:bg-gray-100"
+      >
+        Menu
+      </button>
+      <div class="flex hidden md:flex justify-around gap-8">
+        <a
+          href="#home"
+          class="active:text-blue-600 text-lg pt-2 hover:text-blue-800 text-lg pt-2"
+          >Home</a
+        >
+        <a
+          href="#products"
+          class="active:text-blue-600 text-lg pt-2 hover:text-blue-800 text-lg pt-2"
+          >Products</a
+        >
+        <a
+          href="#services"
+          class="active:text-blue-600 text-lg pt-2 hover:text-blue-800 text-lg pt-2"
+          >Services</a
+        >
+        <a
+          href="#contact"
+          class="active:text-blue-600 text-lg pt-2 hover:text-blue-800 text-lg pt-2"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+    <div class="pt-24"></div>
+    <div id="home" class="flex justify-center items-center mx-14 my-14">
+      <img
+        src="assets/home.jpg"
+        class="w-full h-screen object-cover rounded-xl"
+      />
+    </div>
+    <div
+      id="products"
+      class="flex justify-center items-center rounded-xl mx-14 my-14"
+    >
+      <img
+        src="assets/products.jpg"
+        class="w-full h-screen object-cover rounded-xl"
+      />
+    </div>
+    <div
+      id="services"
+      class="flex justify-center items-center rounded-xl mx-14 my-14"
+    >
+      <img
+        src="assets/services.png"
+        class="w-full h-screen object-cover rounded-xl"
+      />
+    </div>
+    <div
+      id="contact"
+      class="flex justify-center items-center rounded-xl mx-14 my-14"
+    >
+      <img
+        src="assets/contact.jpg"
+        class="w-full h-screen object-cover rounded-xl"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
